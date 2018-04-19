@@ -27,7 +27,7 @@
 	  <exec executable="cmd" osfamily="windows">
      	<arg value="/c"/>
         <mkdir dir="${reports.dir}"/>
-		<arg value="newman run tests/ Validatelogin.postman_collection.json --insecure --reporters junit --reporter-junit-export ${reports.dir}/newmanreport.xml"/>
+		<arg value="newman run tests/ thbs.postman_test_run.json --insecure --reporters junit --reporter-junit-export ${reports.dir}/newmanreport.xml"/>
         </exec>
 	</target>
 	
