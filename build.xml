@@ -23,12 +23,11 @@
 		  
 	</target>
 
-	<target name ="test">
-	  <exec executable="cmd" osfamily="windows">
+	
+	  <exec executable="cmd">
      	<arg value="/c"/>
-        <mkdir dir="${reports.dir}"/>
-		<arg value="newman run tests/ thbs.postman_test_run.json --insecure --reporters junit --reporter-junit-export ${reports.dir}/newmanreport.xml"/>
+        <arg value="testrunner.bat calculate.xml"/>
         </exec>
-	</target>
+	
 	
 </project>
