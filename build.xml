@@ -4,7 +4,7 @@
     <property environment="env" />
     <property name="src.dir" value="src" />
     <property name="reports.dir" value="reports" />
-    <property file="env/build-sb.properties" />
+    <property file="build-sb.properties" />
     <antcall target="build" />
   </target>
  
