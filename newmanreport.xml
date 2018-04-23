@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validatelogin" time="0.69">
+  <testsuite name="https://192.168.225.49/devorg/sb/validataelogin/login" id="298433c9-acd4-463f-a6c9-ee9f8b7271fd" tests="2" time="0.69">
+    <testcase name="Status code is 200" time="0.69"/>
+    <testcase name="Body matches string" time="0.69"/>
+  </testsuite>
+</testsuites>
